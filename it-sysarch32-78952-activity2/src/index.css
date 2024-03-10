@@ -1,0 +1,77 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Add padding around the header content */
+}
+
+/* Center-align the content within the header */
+header > div {
+  text-align: left;
+}
+
+/* Style the list within the header */
+header ul {
+  list-style-type: none; /* Remove bullet points */
+}
+
+/* Style the list items */
+header li {
+  display: inline-block; /* Display list items in a line */
+  margin-right: 20px; /* Add space between list items */
+}
+
+/* Style the heading within a list item */
+header li h1 {
+  font-size: 24px; /* Adjust the font size */
+}
+
+/* Style the anchor (link) within list items */
+header li a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the hover effect for links */
+header li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style the footer */
+footer {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  padding: 20px; /* Add padding around the footer content */
+  position: fixed; /* Position the footer at the bottom of the viewport */
+  width: 100%; /* Make the footer span the entire width of the viewport */
+  bottom: 0; /* Align the footer to the bottom of the viewport */
+}
+
+/* Center-align the content within the footer */
+footer p {
+  text-align: left;
+  padding: 10px 0;
+}
+footer p span {
+  margin-right: 10px; /* Add right margin to create space between elements */
+}
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%,   0.1);
+  padding: 20px;
+  margin: 25px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card img{
+  height: 180px;
+  width:200px;
+}
